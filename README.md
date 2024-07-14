@@ -2,7 +2,7 @@
 
 **Description:**
 <br>
-This project implements a RESTful API using Spring Boot to manage a collection of books.
+This project implements a RESTful API using Spring Boot to manage a collection of books. <br>
 The API supports CRUD operations: Create, Read, Update, and Delete.
 
 **Project Setup** <br>
@@ -26,17 +26,17 @@ json <br>
 **GET - Get All Books**  <br>
 URL: http://localhost:8080/books
 
-**GET - Get Book By ID**
+**GET - Get Book By ID** <br>
 URL: http://localhost:8080/books/:bookId Example: http://localhost:8080/books/1
 
-**PUT - Update Book By ID**
+**PUT - Update Book By ID** <br>
 URL: http://localhost:8080/books/:bookId Example: http://localhost:8080/books/1 Data:
 
-**DELETE - Delete Book By ID**
+**DELETE - Delete Book By ID** <br>
 URL: http://localhost:8080/books/:bookId Example: http://localhost:8080/books/1
 
-**Testing Run the application**
-Open Postman Hit the above-mentioned endpoints and check the responses.
-Error Handling If Book ID is not found: Response: 404 Not Found Message: "Book not found with id : {bookId}" Status Code: 404 
+**Testing Run the application** <br>
+Open Postman Hit the above-mentioned endpoints and check the responses. <br>
+Error Handling If Book ID is not found: Response: 404 Not Found Message: "Book not found with id : {bookId}" Status Code: 404  <br>
 If Book ID is found: Response: 200 OK with the book details.
 
