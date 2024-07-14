@@ -27,13 +27,16 @@ json <br>
 URL: http://localhost:8080/books
 
 **GET - Get Book By ID** <br>
-URL: http://localhost:8080/books/:bookId Example: http://localhost:8080/books/1
+URL: http://localhost:8080/books/:bookId <br>
+Example: http://localhost:8080/books/1
 
 **PUT - Update Book By ID** <br>
-URL: http://localhost:8080/books/:bookId Example: http://localhost:8080/books/1 Data:
+URL: http://localhost:8080/books/:bookId <br>
+Example: http://localhost:8080/books/1 Data:
 
 **DELETE - Delete Book By ID** <br>
-URL: http://localhost:8080/books/:bookId Example: http://localhost:8080/books/1
+URL: http://localhost:8080/books/:bookId  <br>
+Example: http://localhost:8080/books/1
 
 **Testing Run the application** <br>
 Open Postman Hit the above-mentioned endpoints and check the responses. <br>
