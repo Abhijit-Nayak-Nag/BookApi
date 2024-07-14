@@ -1,26 +1,29 @@
 **Spring Boot Simple API Exercise**
 
-**Description**
-This project implements a RESTful API using Spring Boot to manage a collection of books. The API supports CRUD operations: Create, Read, Update, and Delete.
+**Description:**
+<br>
+This project implements a RESTful API using Spring Boot to manage a collection of books.
+The API supports CRUD operations: Create, Read, Update, and Delete.
 
-**Project Setup**
-Port: Running on http://localhost:8080/books
-PostgreSQL Database: JDBC URL: jdbc:postgresql://localhost:5432/BookApi 
-User Name: postgres 
-Password: Global
+**Project Setup** <br>
+Port: Running on http://localhost:8080/books  <br>
+PostgreSQL Database: JDBC URL: jdbc:postgresql://localhost:5432/BookApi <br>
+User Name: postgres <br>
+Password: Global <br>
 
 **API Endpoints**
 
-POST - Adding Book URL: http://localhost:8080/books Data:
+POST - Adding Book URL: http://localhost:8080/books <br>
+Data: <br>
 
-json 
+json <br>
 { 
-"title": "To Kill a Mockingbird",
-"author": "Harper Lee",
-"isbn": "9780060935467"
+"title": "To Kill a Mockingbird", <br>
+"author": "Harper Lee", <br>
+"isbn": "9780060935467" <br>
 }
 
-**GET - Get All Books**
+**GET - Get All Books**  <br>
 URL: http://localhost:8080/books
 
 **GET - Get Book By ID**
